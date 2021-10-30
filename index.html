@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>AfroCalc</title>
+        <link rel="stylesheet" href="IndexStyles.css">
     </head>
     <body>
         <h1>
@@ -9,15 +10,16 @@
         </h1>
         <form>
             <label>First Number</label>
-            <input>
+            <input id="first" type="number" value="Enter first number">
             <br>
-            <label>Operation(+,-,*,/)</label>
-            <input>
+            <label>Operation(+, -, *, /)</label>
+            <input id="operation">
             <br>
             <label>Second Number</label>
-            <input>
+            <input id="second">
         </form>
-        <button>Calculate</button>
-        <p>Result: </p>
+        <button onclick=Calculate()>Calculate</button>
+        <p id="result">Result: </p>
+        <script src="indexScript.js"></script>
     </body>
 </html>
