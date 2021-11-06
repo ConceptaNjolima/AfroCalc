@@ -18,7 +18,8 @@ function Calculate(){
         result=Number(FirstNumber)/Number(SecondNumber);
     }
     else{
-        alert("Wrong Operation. Change operation")
+        alert("Wrong Operation. Change operation");
+        alert("The end");
     }
     document.getElementById("result").innerHTML="Result: "+ String(result);
 }
